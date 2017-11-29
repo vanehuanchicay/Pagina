@@ -1,0 +1,122 @@
+body{
+	font-family: Montserrat;
+}
+.banner{ 
+	background-image: url(../img/nueve.jpg);
+	background-size: cover;
+	padding:15%;
+	background-position: 25% 38%;
+}
+
+.tittle h4{ /* haunted attraction */
+	font-weight: 600;
+	color: white;
+	margin-left: 11%;
+	font-size: 1.563em;
+}
+
+nav{
+	background-color: #3D3D3D;
+}
+
+.text a{ /* texto nav*/
+	color:white;
+	text-decoration: none;
+	padding-left: 4%;
+	margin-left:2%;
+}
+
+.text a:first-child{
+	color:/*SILVER*/lavender;
+}
+
+.text{ /* contenedor text */
+	margin-top: 0.5%;
+}
+
+.part_two{ /* section izquierdo ¿de que se trata?  y titulo contános*/
+	padding: 1%;
+
+}
+
+.tittle_about h2 , p{ /* titulo y p section ¿de que se trata?*/
+	padding-bottom: 1.2%;
+	margin-left: 12%;
+	margin-top: 20px;	
+}
+
+.tittle_about button{ /* margin btn */
+	margin-left: 12%;
+}
+
+.tittle_about p{
+	width: 87%;
+}
+
+.contact h2 , i , p{ /* titulo icono y parrafo  section contáctanos*/
+	padding-bottom: 1.2%;	
+	margin-top: 20px;	
+}
+
+.contact p{  /* section contáctanos p */
+	margin-top: -22px;
+	margin-left: 1.250em;
+}
+
+.contact i{ /* section contáctanos icono */
+	margin-top: 0.513em;
+}
+
+.boxes{ /* section boxes */
+	margin-left: 1.4%;
+	margin-top:40px;
+	padding: 0 80px;
+	padding-bottom: 100px;
+}
+
+.boxes p{
+	margin: 0;
+	padding-top: 15px;
+	width: 300px;
+	max-width: 100%;
+}
+
+.boxes h2{
+	padding-top: 15px;
+	max-width: 100%;
+}
+.boxes img{
+	max-width: 100%;
+
+}
+ button{ /* propiedades botones*/
+	margin-top: 20px;
+	background-color:#3D3D3D;
+  border: none;
+  color: white;
+  padding: 9px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+button:hover{
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.1),0 8px 10px 0 rgba(0,0,0,0.19);
+}
+
+.end{ /*footer*/
+	background-color: #3D3D3D;
+}
+
+.end h5{
+	color: white;
+	font-weight: 400;
+	text-align: center;
+}
+
+.fa-bars{
+    display: none;
+}
